@@ -1,0 +1,44 @@
+form {
+    margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+ul#contactList {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul#contactList li {
+    padding: 10px;
+    margin-bottom: 5px;
+    background-color: #f8f9fa;
+}
+
+ul#contactList li button.deleteBtn {
+    float: right;
+    background-color: #dc3545;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+}
+input#searchInput {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
